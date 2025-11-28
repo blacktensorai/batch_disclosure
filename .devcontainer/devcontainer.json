@@ -1,0 +1,24 @@
+{
+    "name": "CatalystScan Environment",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "catalystscan",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8501
+    ],
+    "portsAttributes": {
+        "8501": {
+            "label": "Streamlit Dashboard",
+            "onAutoForward": "notify"
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}

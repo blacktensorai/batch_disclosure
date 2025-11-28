@@ -1,0 +1,3 @@
+disclosure\Scripts\activate  # to activate env
+
+streamlit run dashboard.py   # to run dashboard

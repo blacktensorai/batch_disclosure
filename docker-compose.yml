@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  catalystscan:
+    build: .
+    container_name: catalyst_scan_app
+    ports:
+      - "8501:8501"
+    volumes:
+      # Map the local folders to the container so data persists
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./storage:/app/storage
+      - ./models:/app/models
+      # Map the .env file so they can change keys easily
+      - ./.env:/app/.env
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped

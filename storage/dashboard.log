@@ -1,0 +1,223 @@
+2025-11-25 21:59:44,861 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-25 21:59:44,877 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-25 21:59:51,010 [INFO] Saved ASX PDF \u2192 C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf
+2025-11-25 21:59:53,011 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-25 21:59:53,011 [INFO] Dispatcher \u2192 found extractor for ASX / quarterly
+2025-11-25 21:59:53,185 [INFO] pikepdf C++ to Python logger bridge initialized
+2025-11-25 21:59:53,300 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_7688b89178.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-25 22:00:08,451 [INFO] Reading PDF for file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf ...
+2025-11-25 22:01:23,486 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_7688b89178.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-25 22:03:44,487 [INFO] Retrying request to /chat/completions in 0.493482 seconds
+2025-11-25 22:04:27,332 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:04:27,350 [INFO] LLM Token Usage — time=2025-11-25T17:04:27.350130 input=480 output=3738 total=4218
+2025-11-25 22:05:29,366 [INFO] Retrying request to /chat/completions in 0.457639 seconds
+2025-11-25 22:06:29,933 [INFO] Retrying request to /chat/completions in 0.820023 seconds
+2025-11-25 22:07:10,762 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:07:10,762 [INFO] LLM Token Usage — time=2025-11-25T17:07:10.762055 input=574 output=4451 total=5025
+2025-11-25 22:07:10,762 [INFO] Deleted tmp file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf
+2025-11-25 22:07:17,558 [INFO] Saved ASX PDF \u2192 C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_15bef3eca3.pdf
+2025-11-25 22:07:19,563 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-25 22:07:19,563 [INFO] Dispatcher \u2192 found extractor for ASX / quarterly
+2025-11-25 22:07:19,605 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_15bef3eca3.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-25 22:07:31,728 [INFO] Reading PDF for file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_15bef3eca3.pdf ...
+2025-11-25 22:15:08,698 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_15bef3eca3.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-25 22:23:34,593 [INFO] Retrying request to /chat/completions in 0.494001 seconds
+2025-11-25 22:24:29,387 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:24:29,388 [INFO] LLM Token Usage — time=2025-11-25T17:24:29.388035 input=948 output=4281 total=5229
+2025-11-25 22:25:31,401 [INFO] Retrying request to /chat/completions in 0.414158 seconds
+2025-11-25 22:26:31,959 [INFO] Retrying request to /chat/completions in 0.784312 seconds
+2025-11-25 22:27:05,027 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:27:05,029 [INFO] LLM Token Usage — time=2025-11-25T17:27:05.029828 input=939 output=2634 total=3573
+2025-11-25 22:27:52,743 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:27:52,744 [INFO] LLM Token Usage — time=2025-11-25T17:27:52.744750 input=764 output=3883 total=4647
+2025-11-25 22:28:54,762 [INFO] Retrying request to /chat/completions in 0.474722 seconds
+2025-11-25 22:29:55,608 [INFO] Retrying request to /chat/completions in 0.862429 seconds
+2025-11-25 22:30:47,355 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:30:47,355 [INFO] LLM Token Usage — time=2025-11-25T17:30:47.355967 input=806 output=4338 total=5144
+2025-11-25 22:31:44,893 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:31:44,895 [INFO] LLM Token Usage — time=2025-11-25T17:31:44.895493 input=832 output=4901 total=5733
+2025-11-25 22:32:20,372 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:32:20,379 [INFO] LLM Token Usage — time=2025-11-25T17:32:20.379458 input=788 output=2849 total=3637
+2025-11-25 22:32:54,289 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:32:54,291 [INFO] LLM Token Usage — time=2025-11-25T17:32:54.291694 input=874 output=3377 total=4251
+2025-11-25 22:33:17,969 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 22:33:17,970 [INFO] LLM Token Usage — time=2025-11-25T17:33:17.970181 input=1777 output=2058 total=3835
+2025-11-25 22:33:17,972 [INFO] Deleted tmp file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_15bef3eca3.pdf
+2025-11-26 04:49:55,901 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 04:49:55,902 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 04:49:56,041 [ERROR] Critical error BHP: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:49:56,041 [ERROR] Critical error CBA: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 04:50:21,409 [ERROR] Critical error ANZ: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error BHP: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error CBA: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error CSL: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error MQG: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error NAB: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error NEM: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error WBC: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:50:21,409 [ERROR] Critical error WES: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,023 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 04:51:00,026 [ERROR] Critical error ANZ: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,026 [ERROR] Critical error BHP: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,026 [ERROR] Critical error CBA: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,026 [ERROR] Critical error CSL: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,040 [ERROR] Critical error MQG: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,043 [ERROR] Critical error NAB: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,047 [ERROR] Critical error NEM: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,050 [ERROR] Critical error WBC: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:51:00,053 [ERROR] Critical error WES: name 'as_start_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\LOQ\Desktop\batch disclosure\dashboard.py", line 192, in <module>
+    filings = get_recent_filings(code, as_start_date, datetime.now().date())
+                                       ^^^^^^^^^^^^^
+NameError: name 'as_start_date' is not defined
+2025-11-26 04:55:07,040 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 04:55:30,517 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 05:00:37,531 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 05:25:15,908 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 05:25:21,113 [INFO] Saved ASX PDF \u2192 C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf
+2025-11-26 05:25:23,115 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 05:25:23,115 [INFO] Dispatcher \u2192 found extractor for ASX / quarterly
+2025-11-26 05:25:23,151 [INFO] pikepdf C++ to Python logger bridge initialized
+2025-11-26 05:25:23,208 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_7688b89178.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-26 05:25:38,911 [INFO] Reading PDF for file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf ...
+2025-11-26 05:26:43,487 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_7688b89178.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-26 05:29:02,596 [INFO] Retrying request to /chat/completions in 0.460720 seconds
+2025-11-26 05:29:46,954 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 05:29:46,970 [INFO] LLM Token Usage — time=2025-11-26T00:29:46.970754 input=480 output=4769 total=5249
+2025-11-26 05:30:46,084 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 05:30:46,097 [INFO] LLM Token Usage — time=2025-11-26T00:30:46.097414 input=574 output=6520 total=7094
+2025-11-26 05:30:46,100 [INFO] Deleted tmp file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf
+2025-11-26 05:30:51,673 [INFO] Saved ASX PDF \u2192 C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_17a45fe72c.pdf
+2025-11-26 05:30:53,675 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 05:30:53,675 [INFO] Dispatcher \u2192 found extractor for ASX / quarterly
+2025-11-26 05:30:53,706 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_17a45fe72c.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-26 05:31:00,845 [INFO] Reading PDF for file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_17a45fe72c.pdf ...
+2025-11-26 05:31:13,675 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_17a45fe72c.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-26 05:32:46,659 [INFO] Retrying request to /chat/completions in 0.473809 seconds
+2025-11-26 05:33:42,087 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 05:33:42,087 [INFO] LLM Token Usage — time=2025-11-26T00:33:42.087993 input=705 output=6022 total=6727
+2025-11-26 05:34:44,112 [INFO] Retrying request to /chat/completions in 0.457901 seconds
+2025-11-26 05:35:44,668 [INFO] Retrying request to /chat/completions in 0.974490 seconds
+2025-11-26 05:36:44,390 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 05:36:44,393 [INFO] LLM Token Usage — time=2025-11-26T00:36:44.393168 input=684 output=6144 total=6828
+2025-11-26 05:36:44,396 [INFO] Deleted tmp file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_17a45fe72c.pdf
+2025-11-26 06:12:53,079 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 06:12:53,397 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 06:12:59,265 [INFO] Saved ASX PDF \u2192 C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf
+2025-11-26 06:13:01,266 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 06:13:01,266 [INFO] Dispatcher \u2192 found extractor for ASX / quarterly
+2025-11-26 06:13:01,409 [INFO] pikepdf C++ to Python logger bridge initialized
+2025-11-26 06:13:01,549 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_7688b89178.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-26 06:13:17,717 [INFO] Reading PDF for file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf ...
+2025-11-26 06:14:28,507 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_7688b89178.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-26 06:16:09,437 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 06:16:09,452 [INFO] LLM Token Usage — time=2025-11-26T01:16:09.452702 input=480 output=2807 total=3287
+2025-11-26 06:17:11,461 [INFO] Retrying request to /chat/completions in 0.475928 seconds
+2025-11-26 06:18:12,271 [INFO] Retrying request to /chat/completions in 0.842079 seconds
+2025-11-26 06:19:13,305 [INFO] Retrying request to /chat/completions in 1.713655 seconds
+2025-11-26 06:20:09,377 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 06:20:09,377 [INFO] LLM Token Usage — time=2025-11-26T01:20:09.377855 input=574 output=5686 total=6260
+2025-11-26 06:20:09,382 [INFO] Deleted tmp file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_7688b89178.pdf
+2025-11-26 06:21:44,853 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 06:21:56,525 [INFO] Saved ASX PDF \u2192 C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_e41f8ddcfc.pdf
+2025-11-26 06:21:58,529 [INFO] Loaded LLM model: gpt-5-nano
+2025-11-26 06:21:58,529 [INFO] Dispatcher \u2192 found extractor for ASX / annual
+2025-11-26 06:21:58,598 [WARNING] The PDF <_io.BufferedReader name='C:\\Users\\LOQ\\Desktop\\batch disclosure\\data\\asx\\asx_e41f8ddcfc.pdf'> contains a metadata field indicating that it should not allow text extraction. Ignoring this field and proceeding. Use the check_extractable if you want to raise an error in this case
+2025-11-26 06:24:43,701 [INFO] Reading PDF for file: C:\Users\LOQ\Desktop\batch disclosure\data\asx\asx_e41f8ddcfc.pdf ...
