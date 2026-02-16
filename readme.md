@@ -1,6 +1,3 @@
-### `README.md`
-
-````markdown
 # CatalystScan
 
 CatalystScan is an AI-powered tool designed to scan and analyze company filings from the ASX and SEC. It identifies forward-looking disclosures and price-moving catalysts using NLP and OCR technology.
