@@ -36,8 +36,8 @@ exchange = st.sidebar.selectbox("Exchange", ["ASX", "SEC"], index=0)
 
 # ==================== SMART COMPANY LIST LOADER ====================
 @st.cache_data(show_spinner=False)
-def load_company_list():
-    if exchange == "ASX":
+def load_company_list(exchange_type):
+    if exchange_type == "ASX":
         folder = DATA_DIR / "company_list"
         candidates = list(folder.glob("*.csv"))
         if not candidates:
@@ -66,7 +66,8 @@ def load_company_list():
     st.sidebar.success(f"Loaded: `{csv_path.name}` • {len(df):,} companies")
     return df, code_col
 
-companies_df, code_col = load_company_list()
+companies_df, code_col = load_company_list(exchange)
+companies_df.head()
 
 # Clean market cap
 if "market_cap" in companies_df.columns:
